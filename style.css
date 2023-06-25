@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 1200px;
+    align-items: center;
+    background-color: rgb(223, 221, 221);
+    padding: 100px;
+}
+
+.div-master {
+    cursor: pointer;
+}
+
+.div-master h1{
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+
+.div-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col1-content {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div-identity {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.payment-form {
+    cursor: pointer;
+    background-color: rgb(51, 136, 248);
+    width: 350px;
+    height: 650px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.payment-form-format {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-form h1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+.img-format {
+    width: 80px;
+    height: 80px;
+    padding-left: 0px;
+}
+
+.lix-format {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card-format {
+    width: 35px;
+    padding-top: 15px;
+    margin-right: 5px;
+}
+
+.face-format {
+    width: 50px;
+    height: 55px;
+}
+
+.table-format {
+    padding-top: 25px;
+}
+
+.table-format input{
+    margin-bottom: 15px;
+    border: 2px solid white;
+    background-color: unset;
+}
+
+.table-format input:focus{
+    outline: 0;
+}
+
+.table-format-div input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+}
+
+.table-format-div input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.table-val {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.table-format-val input {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+}
+
+.table-format-val input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.format {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.initial-format h3 {
+    padding-bottom: 15px;
+}
+
+.total-format {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-format{
+    border-top: 0.5px solid white;
+}
+
+.bord-format {
+    padding-top: 20px;
+}
+
+.bord-format-2 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.button-format {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(39, 195, 206);
+    border-color: white;
+    margin-top: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.payment-form h1 {
+    color: white;
+}
+
+.payment-form h3 {
+    color: white;
+}
